@@ -28,10 +28,12 @@ Pandas is well suited for many different kinds of data:
 # Slicing: 
 
 `print(df.head(2)) #Print first two rows`
+
 `print(df.tail(2)) #Print last two rows`
 
 # It will merge the common columns only
 `merge = pd.merge(df1, df2)`
+
 `merge = pd.merge(df1, df2, on="HPI")`
 
 
