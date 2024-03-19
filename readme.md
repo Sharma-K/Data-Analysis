@@ -32,9 +32,10 @@ Pandas is well suited for many different kinds of data:
 `print(df.tail(2)) #Print last two rows`
 
 2 - It will merge the common columns only
+
 `merge = pd.merge(df1, df2)`
 
-`merge = pd.merge(df1, df2, on="HPI")`
+`merge = pd.merge(df1, df2, on="HPI")  #On common column else all fields will be col2_X, col2_Y`
 
 
 
