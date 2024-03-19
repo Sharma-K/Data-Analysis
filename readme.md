@@ -24,3 +24,15 @@ Pandas is well suited for many different kinds of data:
 5. Data Conversion
 6. Changing the column headers
 
+
+# Slicing: 
+
+`print(df.head(2)) #Print first two rows`
+`print(df.tail(2)) #Print last two rows`
+
+# It will merge the common columns only
+`merge = pd.merge(df1, df2)`
+`merge = pd.merge(df1, df2, on="HPI")`
+
+
+
