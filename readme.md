@@ -1,5 +1,18 @@
 ## Data Analysis
 
+Data Science is about finding and exploring data in real world, and then using that knowledge to solve business problems.
+
+## Python libraries for data analysis:
+
+- pandas     : used for structured data operations like CSV files and data manipulations.
+- numPy      : focuses on array manipulation and other features of Scipy
+- SciPy      : Scientific tools like Linear algebra, Fourier transform, built on top of NumPy
+- Matplotlib : visualisation of data
+
+
+
+
+
 # Data Life Cycle:
   1. Data
   2. Data Warehouse
@@ -15,6 +28,21 @@ Pandas is well suited for many different kinds of data:
 - Ordered and unordered time series data.
 - Arbitary matrix data with row and column labels.
 - Any other form of observational/statistical data sets.
+
+
+### Series VS DataFrame :
+
+1. Series :  A series is a one dimensional object that can hold any data type such as integers, floats and string
+
+`x = pd.Series([6,4,31,5])`
+
+
+2. DataFrame : A Dataframe is a two dimensional object that can have columns with potential different data types.
+like a Table
+
+`XYZ_web = {'Day': [1,2,3,4,5,6], "Visitors": [1000,700,6000,1000,400,350], "Bounce_Rate": [20,20,43,65,23,65]}`
+`df = pd.DataFrame(XYZ_web)`
+
 
 ### Pandas Operations:
 1. Slicing
